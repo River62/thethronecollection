@@ -41,7 +41,7 @@ const Home: NextPage = () => {
               <strong>three</strong> model types and different styles.
             </Intro>
 
-            {/* <Button>Buy on Magic Eden</Button> */}
+            <Button>Available soon</Button>
           </IntroContent>
 
           <IntroImage>
@@ -142,7 +142,9 @@ const Home: NextPage = () => {
             </SmallerContent>
           </Section>
         </Info>
-        <Center>{/* <Button>Buy on Magic Eden</Button> */}</Center>
+        <Center>
+          <Button>Available soon</Button>
+        </Center>
       </main>
 
       <Footer>
