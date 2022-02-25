@@ -16,6 +16,14 @@ const Home: NextPage = () => {
           name="description"
           content="The worlds first NFT collection of toilets!"
         />
+        <meta property="og:title" content="The Throne Collection" />
+        <meta property="og:image" content="/images/nft.png" />
+        <meta property="twitter:title" content="The Throne Collection" />
+        <meta
+          property="twitter:description"
+          content="The worlds first NFT collection of toilets!"
+        />
+        <meta property="twitter:image" content="/images/nft.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
