@@ -34,11 +34,11 @@ const Home: NextPage = () => {
 
             <Intro>
               This one of a kind collection will contain{" "}
-              <strong>60 unique thrones</strong> created from three model types
-              and 20 different styles.
+              <strong>unique thrones</strong> created from three model types and
+              different styles.
             </Intro>
 
-            <Button>Buy on Magic Eden</Button>
+            {/* <Button>Buy on Magic Eden</Button> */}
           </IntroContent>
 
           <IntroImage>
@@ -129,9 +129,7 @@ const Home: NextPage = () => {
             </SmallerContent>
           </Section>
         </Info>
-        <Center>
-          <Button>Buy on Magic Eden</Button>
-        </Center>
+        <Center>{/* <Button>Buy on Magic Eden</Button> */}</Center>
       </main>
 
       <Footer>
