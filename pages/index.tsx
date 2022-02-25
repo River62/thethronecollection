@@ -150,7 +150,7 @@ const Home: NextPage = () => {
 
       <Footer>
         <Center>
-          <TwitterButton href="" target="_blank">
+          <TwitterButton href="https://twitter.com/ThroneNFTs" target="_blank">
             <Twitter
               src="/images/twitter.png"
               width="30"
