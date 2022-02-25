@@ -34,8 +34,8 @@ const Home: NextPage = () => {
 
             <Intro>
               This one of a kind collection will contain{" "}
-              <strong>unique thrones</strong> created from three model types and
-              different styles.
+              <strong>unique thrones</strong> created from{" "}
+              <strong>three</strong> model types and different styles.
             </Intro>
 
             {/* <Button>Buy on Magic Eden</Button> */}
@@ -51,9 +51,19 @@ const Home: NextPage = () => {
             <SmallerContent>
               <Subtitle>Which model types are there?</Subtitle>
               <p>
-                There are three model types: <strong>The Classic</strong>,{" "}
-                <strong>The Normal</strong> and <strong>The Modern</strong>.
-                Each of these models are available in different colors and
+                There are three model types:{" "}
+                <NoBreak>
+                  <strong>The Classic Throne</strong>
+                </NoBreak>
+                ,{" "}
+                <NoBreak>
+                  <strong>The Normal Throne</strong>
+                </NoBreak>{" "}
+                and{" "}
+                <NoBreak>
+                  <strong>The Modern Throne</strong>
+                </NoBreak>
+                . Each of these models are available in different colors and
                 materials.
               </p>
             </SmallerContent>
@@ -145,13 +155,17 @@ const Home: NextPage = () => {
           </TwitterButton>
         </Center>
         <br />
-        <Center>Made with ❤️ &nbsp; on Solana.</Center>
+        <Center>Made with ❤️&nbsp;on Solana.</Center>
       </Footer>
     </div>
   );
 };
 
 export default Home;
+
+const NoBreak = styled.span`
+  white-space: nowrap;
+`;
 
 const TwitterButton = styled.a`
   display: flex;
