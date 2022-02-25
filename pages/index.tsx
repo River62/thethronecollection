@@ -14,14 +14,14 @@ const Home: NextPage = () => {
         <title>The Throne Collection</title>
         <meta
           name="description"
-          content="The worlds first NFT collection of toilets!"
+          content="The worlds first NFT collection of sol toilets!"
         />
         <meta property="og:title" content="The Throne Collection" />
         <meta property="og:image" content="/images/nft.png" />
         <meta property="twitter:title" content="The Throne Collection" />
         <meta
           property="twitter:description"
-          content="The worlds first NFT collection of toilets!"
+          content="The worlds first NFT collection of sol toilets!"
         />
         <meta property="twitter:image" content="/images/nft.png" />
         <link rel="icon" href="/favicon.ico" />
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             <Title>
               <span>The worlds first</span>
               <br />
-              <GradientMask>NFT collection of toilets!</GradientMask>
+              <GradientMask>NFT collection of sol toilets!</GradientMask>
             </Title>
 
             <Intro>
