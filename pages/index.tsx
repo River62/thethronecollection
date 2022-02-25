@@ -139,6 +139,7 @@ const Home: NextPage = () => {
                 earnings untill enough royalties are collected to buy a Bored
                 Ape.
               </p>
+              <p>More details later.</p>
             </SmallerContent>
           </Section>
         </Info>
