@@ -31,9 +31,14 @@ const Container = styled.button<ContainerProps>`
   padding: 10px 20px;
   margin: 20px 0;
   font-weight: 600;
+  transition: all 0.3s ease-in-out;
 
   @media only screen and (min-width: 769px) {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+
+  &:hover {
+    background: ${colors.paradiso};
   }
 
   ${({ variant }) => {
@@ -41,6 +46,11 @@ const Container = styled.button<ContainerProps>`
       return css`
         background: transparent;
         border: 1px solid ${colors.tradewind};
+
+        &:hover {
+          background: transparent;
+          border: 1px solid ${colors.paradiso};
+        }
       `;
     }
   }};

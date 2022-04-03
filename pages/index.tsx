@@ -45,11 +45,18 @@ const Home: NextPage = () => {
 
             <Intro>
               This one of a kind collection will contain{" "}
-              <strong>unique thrones</strong> created from{" "}
+              <strong>102 unique thrones</strong> created from{" "}
               <strong>three</strong> model types and different styles.
             </Intro>
 
-            <Button>Available soon</Button>
+            <Button>
+              <a
+                href="https://magiceden.io/marketplace/the_throne_collection"
+                target="_blank"
+              >
+                Buy on Magic Eden
+              </a>
+            </Button>
           </IntroContent>
 
           <IntroImage>
@@ -136,7 +143,7 @@ const Home: NextPage = () => {
                 <strong>profile picture</strong>? Fine. Print it out and hang it
                 as <strong>art</strong> in your bathroom? Sure. Or just let it
                 sit in your wallet ready to <strong>sell it</strong> at a higher
-                price? Go ahead.
+                price? Go ahead.``
               </p>
               <p>
                 Still not motivated? Ok, fine, we set a crazy goal to raffle one
@@ -152,7 +159,14 @@ const Home: NextPage = () => {
           </Section>
         </Info>
         <Center>
-          <Button>Available soon</Button>
+          <Button>
+            <a
+              href="https://magiceden.io/marketplace/the_throne_collection"
+              target="_blank"
+            >
+              Buy on Magic Eden
+            </a>
+          </Button>
         </Center>
       </main>
 
