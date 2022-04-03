@@ -53,6 +53,7 @@ const Home: NextPage = () => {
               <a
                 href="https://magiceden.io/marketplace/the_throne_collection"
                 target="_blank"
+                rel="noreferrer"
               >
                 Buy on Magic Eden
               </a>
@@ -163,6 +164,7 @@ const Home: NextPage = () => {
             <a
               href="https://magiceden.io/marketplace/the_throne_collection"
               target="_blank"
+              rel="noreferrer"
             >
               Buy on Magic Eden
             </a>
@@ -172,7 +174,11 @@ const Home: NextPage = () => {
 
       <Footer>
         <Center>
-          <TwitterButton href="https://twitter.com/ThroneNFTs" target="_blank">
+          <TwitterButton
+            href="https://twitter.com/ThroneNFTs"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Twitter
               src="/images/twitter.png"
               width="30"
